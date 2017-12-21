@@ -1,0 +1,22 @@
+{
+  "name": "www",
+  "authors": [
+    "Dinesh <dinesh.condur@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.2",
+    "jquery": "^3.2.1"
+  }
+}

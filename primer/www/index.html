@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Keyboard Analysis Reference &nbsp;|&nbsp; Tools for Web Developers</title>
+
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+
+  <!-- <script src="js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.js"></script> -->
+  <script src="js/materialize.min.js"></script>
+
+
+
+  <script type="text/javascript" src="js/tc/typeCast.js" charset='utf-8'></script>
+  <script type="text/javascript" src="js/app_init.js" charset='utf-8'></script>
+  <!-- <script type="text/javascript" src="js/serviceWorker.js" charset='utf-8'></script> -->
+  
+
+
+
+
+</head>
+
+<body>
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper  amber darken-2">
+        <a href="" class="brand-logo center">typeCast</a>
+
+      </div>
+    </nav>
+  </div>
+
+
+  <ul id="tabs-swipe-demo" class="tabs center">
+    <li class="tab col s3">
+      <a class="active" href="#home">Home</a>
+    </li>
+    <li class="tab col s3">
+      <a href="#example">Example</a>
+    </li>
+  </ul>
+
+
+
+
+
+  <div id="home" class="col s12 amber lighten-5 page">
+    <div class="container">
+      <h5>typeCase Keyboard</h5>
+      <p>typeCast keyboard is a russian keyboard mapper to US keyboard layout, that can be extended to other user layouts and other target languages.</p>
+      <p>typeCast was built for multilingual support, is platform agnostic and can be used as offline access.</p>
+     
+
+
+
+    </div>
+  </div>
+
+
+  <div id="example" class="col s12  light-green lighten-5 page">
+    <div class="container">
+      <h5>Implementation example</h5>
+      <h6>Assume that this page is one of the pages in the course which needs a user to type in russian.</h6>
+      <h6>Imagine that below are text input fields of your site (single-line and/or multi-line fields)</h6>
+
+      <br>
+      <br>
+
+      <div class="row">
+        <div class="input-field col s6">
+
+
+          <!-- input element 'firstName'  -->
+          <input id="firstName" type="text">
+
+
+          <label class="active" for="firstName">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="date" type="date" class="validate">
+          <label class="active" for="date">Today`s date</label>
+        </div>
+      </div>
+
+        <div class="section ui-content">
+          <h5>Question 1</h5>
+          <div class="row">
+            <div class="col s12">The name of a thing in russian is:
+              <div class="input-field inline ui-field-contain">
+
+
+                <!-- input element 'input' -->
+                <input id="input" type="text">
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="section ui-content">
+          <h5>Question 2</h5>
+          <p> Write a sentence in russian below.</p>
+          <p lang="ru">Напишите предложение на русском языке ниже.</p>
+          <div class="col s6 ui-field-contain">
+
+            <!-- multiline text area element 'message' -->
+          
+            <textarea name="message" id="text" rows="15" cols="100"></textarea>
+          </div>
+        </div>
+
+
+
+
+
+
+  </div>
+  </div>
+</body>
+
+</html>
