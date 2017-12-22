@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "typeCast",
+  "short_name": "typeCast",
+  "version": "io.github.dineshcondur.primer",
+  "description": "Android keyboard test.",
+  "author": "Dinesh Condur",
+  "icons": [],
+  "start_url": "index.html"
+}
