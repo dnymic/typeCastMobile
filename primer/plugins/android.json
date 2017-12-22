@@ -9,6 +9,15 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "io.github.dineshcondur.primer"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "io.github.dineshcondur.primer"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "io.github.dineshcondur.primer"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.github.dineshcondur.primer"
     }
   },
   "dependent_plugins": {}
